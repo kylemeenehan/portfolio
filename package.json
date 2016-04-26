@@ -1,0 +1,26 @@
+{
+  "name": "kylemeenehan_portfolio",
+  "version": "1.0.0",
+  "description": "Kyle Meenehan's Front End Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylemeenehan/portfolio.git"
+  },
+  "author": "Kyle Meenehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylemeenehan/portfolio/issues"
+  },
+  "homepage": "https://github.com/kylemeenehan/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "main-bower-files": "^2.11.1"
+  }
+}

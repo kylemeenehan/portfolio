@@ -1,0 +1,22 @@
+{
+  "name": "kylemeenehan_portfolio",
+  "description": "Kyle Meenehan's Front End Developer Portfolio",
+  "main": "index.js",
+  "authors": [
+    "Kyle Meenehan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kylemeenehan/portfolio",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.9",
+    "angular": "^1.5.3"
+  }
+}
