@@ -1,0 +1,13 @@
+$black: #000;
+$white: #fff;
+$toyotaRed: #d71724;
+$lightRed: lighten($toyotaRed, 5%);
+$darkRed: darken($toyotaRed, 10%);
+$yellow: #f8ed13;
+$grey: #ddd;
+$darkGrey: #333;
+
+$media1920: ">1600px";
+$media1600: ">1280px","<=1600px";
+$media1280: ">960px","<=1280px";
+$media960: "<=960px";

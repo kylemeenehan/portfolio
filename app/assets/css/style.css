@@ -1,1 +1,174 @@
 @import url(../css/bootstrap.css);
+.text-huge {
+  line-height: 1; }
+
+.text-xlarge {
+  line-height: 1; }
+
+.text-large, #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+  line-height: 1; }
+
+.text-medium, #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button {
+  line-height: 1; }
+
+.text-small {
+  line-height: 1; }
+
+.text-xsmall {
+  line-height: 1; }
+
+#safety {
+  overflow: hidden; }
+  #safety .x-scroll {
+    position: absolute;
+    bottom: 0;
+    overflow: visible; }
+  #safety .blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px); }
+  #safety .focus {
+    z-index: 999; }
+  #safety #safety-bg {
+    left: -10%;
+    height: 100%;
+    width: 109.375vw; }
+    #safety #safety-bg img {
+      height: 100%; }
+  #safety #safety-mg {
+    left: -10%;
+    height: 60%;
+    width: 113.698vw; }
+    #safety #safety-mg img {
+      height: 100%; }
+  #safety #safety-fg {
+    left: -10%;
+    height: 70%;
+    width: 117.135vw; }
+    #safety #safety-fg img {
+      height: 100%; }
+    #safety #safety-fg .safety-feature {
+      position: absolute;
+      width: 100%; }
+      #safety #safety-fg .safety-feature.left .line, #safety #safety-fg .safety-feature.left .popup, #safety #safety-fg .safety-feature.left .dot {
+        float: right; }
+      #safety #safety-fg .safety-feature.right .line, #safety #safety-fg .safety-feature.right .popup, #safety #safety-fg .safety-feature.right .dot {
+        float: left; }
+      #safety #safety-fg .safety-feature.focus .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+        content: '\2013'; }
+      #safety #safety-fg .safety-feature .line {
+        height: 1px;
+        position: relative;
+        float: right;
+        transform-origin: center right; }
+        #safety #safety-fg .safety-feature .line .dot {
+          position: relative;
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          background-color: #fff;
+          border-radius: 100%;
+          top: -2px; }
+        #safety #safety-fg .safety-feature .line hr {
+          color: #fff;
+          border-bottom: none;
+          border-top: 1px solid #fff;
+          margin: 0;
+          position: absolute;
+          top: 0;
+          width: 0; }
+      #safety #safety-fg .safety-feature.left .line hr {
+        right: 0; }
+      #safety #safety-fg .safety-feature.right .line hr {
+        left: 0; }
+      @media (min-width: 1601px) {
+        #safety #safety-fg .safety-feature .popup {
+          width: 350px; } }
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  #safety #safety-fg .safety-feature .popup {
+    width: 300px; } }
+
+@media (min-width: 961px) and (max-width: 1280px) {
+  #safety #safety-fg .safety-feature .popup {
+    width: 250px; } }
+      @media (max-width: 960px) {
+        #safety #safety-fg .safety-feature .popup {
+          width: 175px; } }
+      #safety #safety-fg .safety-feature .popup .dropdown-button-container {
+        margin: 0;
+        padding: 0;
+        display: none;
+        z-index: 998px;
+        position: relative; }
+        #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button {
+          display: block;
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 10px 15px;
+          transition: 0.5s;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box; }
+          #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button:hover {
+            text-decoration: none; }
+          #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+            position: absolute;
+            color: #000;
+            content: '+';
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 50px;
+            background-color: #f8ed13;
+            box-sizing: border-box;
+            text-align: center; }
+            @media (min-width: 1601px) {
+              #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+                line-height: 0.85; } }
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+    line-height: 0.9; } }
+
+@media (min-width: 961px) and (max-width: 1280px) {
+  #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+    line-height: 0.85; } }
+            @media (max-width: 960px) {
+              #safety #safety-fg .safety-feature .popup .dropdown-button-container .dropdown-button .dropdown-icon:before {
+                line-height: 0.9; } }
+      #safety #safety-fg .safety-feature .popup .info {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        height: 100%; }
+        #safety #safety-fg .safety-feature .popup .info img {
+          width: 100%;
+          height: auto; }
+        #safety #safety-fg .safety-feature .popup .info p {
+          padding: 0 20px 15px;
+          margin-top: 15px;
+          margin-bottom: 0; }
+    #safety #safety-fg .open-up {
+      transition: 0.5s; }
+    #safety #safety-fg #safety-feature-1 {
+      right: 1712px;
+      top: 79px; }
+      #safety #safety-fg #safety-feature-1 .line {
+        width: 100px; }
+    #safety #safety-fg #safety-feature-2 {
+      left: 1718px;
+      top: 174px; }
+      #safety #safety-fg #safety-feature-2 .line {
+        width: 100px; }
+    #safety #safety-fg #safety-feature-3 {
+      right: 1757px;
+      top: 514px; }
+      #safety #safety-fg #safety-feature-3 .line {
+        width: 100px; }
+    #safety #safety-fg #safety-feature-4 {
+      left: 1642px;
+      top: 436px; }
+      #safety #safety-fg #safety-feature-4 .line {
+        width: 100px; }
