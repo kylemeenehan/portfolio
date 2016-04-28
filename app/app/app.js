@@ -1,1 +1,6 @@
-angular.module('PortfolioApp', []);
+angular.module('PortfolioApp', ['ngRoute'])
+.config(function($routeProvider){
+	$routeProvider.when('/',{
+		templateUrl: "app/views/home.html"
+	});
+});
