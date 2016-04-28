@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
-var mainBowerFiles = require('main-bower-files');
 var concat = require('gulp-concat');
 
 var config = {
@@ -23,13 +22,11 @@ gulp.task('sass', function () {
     }));
 });
 
-gulp.task('inject-bower-js', function(){
+gulp.task('vendor-js', function(){
 
-  var test = gulp.src(mainBowerFiles(),{ base: 'bower_components'});
-
-  return gulp.src(mainBowerFiles('**/*.js'),{ base: 'bower_components' })
-  .pipe(concat(config.injectBowerJS.outputFileName))
-  .pipe(gulp.dest(config.injectBowerJS.outputFilePath));
+  return gulp.src('app/assets/js/vendor/*.js')
+  .pipe(concat('vendor.js'))
+  .pipe(gulp.dest('./app/assets/js'));
 });
 
 gulp.task('browserSync', function() {
